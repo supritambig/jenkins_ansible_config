@@ -10,7 +10,7 @@ pipeline {
 
         stage('Run Ansible Playbook') {
             steps {
-                sh 'sudo -u ansible ansible-playbook install-nginx.yml -i localhost,'
+                sh 'sudo -u ansible ansible-playbook install_nginx.yml -i localhost,'
             }
         }
 
