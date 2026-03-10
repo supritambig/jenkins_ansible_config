@@ -1,2 +1,2 @@
 [web]
-worker ansible_host=13.235.95.226 ansible_user=ubuntu
+172.31.47.148 ansible_user=ubuntu
