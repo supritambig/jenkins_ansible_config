@@ -1,6 +1,6 @@
 ---
 - name: Install Nginx
-  hosts: localhost
+  hosts: web
   connection: local
   become: yes
 
