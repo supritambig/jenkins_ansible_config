@@ -5,7 +5,7 @@ pipeline {
         stage('Validate Ansible Playbook') {
             steps {
                 sh """
-                sudo -u ansible ansible-playbook -i inventory playbook.yml --check
+                sudo -u ansible ansible-playbook -i inventory install_nginx.yml --check
                 """
             }
         }
